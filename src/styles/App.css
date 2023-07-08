@@ -81,8 +81,28 @@ body {
 }
 
 .nav li:hover {
-  background-color: #777;
+  background-color: #5555;
+}
 
+
+.menubutton {
+  color: #f9f9fa;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #c8935f;
+  padding: 10px 30px;
+  line-height: 1.4em;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transition: all .3s;
+}
+
+.menubutton:hover {
+  border: 1px solid #c8935f;
+  background-color: #f9f9fa;
+  color: #c8935f;
 }
 
 /* MENU */
@@ -299,4 +319,122 @@ header {
   background-position: center center;
   background-size: cover;
 
+}
+
+.scroll-animation {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+
+.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 700px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .button-container,
+  .button-container h3,
+  .button-container h2,
+  .button-container hr,
+  .button-container button {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .coffee-select-btns {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .button-container button {
+    flex-wrap: nowrap
+  }
+
+  /* 
+  .button-container button:nth-child(3) {
+    margin-left: 26%;
+  } */
+
+  .button-container h3,
+  .button-container h2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .button-container hr {
+    display: none;
+  }
+
+  .coffeeCard {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .nav {
+    gap: 0;
+    padding: 0.25rem;
+  }
+
+  .nav a {
+    padding: 0.25rem 8px;
+  }
+
+  .hero {
+    padding: 1.5em;
+  }
+
+  .hero h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+  }
+
+  .hero p {
+    margin: 0;
+    width: 100%;
+  }
+
+  .coffeeCard {
+    width: 100%;
+  }
+
+  .coffeeCardImage {
+    height: 275px;
+  }
+
+  .footer h2 {
+    margin: 0;
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  .footer-info {
+    padding: 0 0 1.5rem 0;
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+
+  .footer-logo h1,
+  .footer-logo p {
+    text-align: center;
+  }
+
+  .footer-menu-copy {
+    width: 100%;
+  }
+
+  .footer-menu {
+    padding: 1rem 0;
+  }
 }

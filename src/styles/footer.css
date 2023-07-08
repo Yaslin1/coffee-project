@@ -1,0 +1,125 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400&display=swap');
+
+/* Footer */
+.footer {
+    background-color: #000;
+    background-position: 30% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+.footer h2{
+    color: #f9f9fa;
+    font-size: 60px;
+    font-weight: 300px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer .menubutton {
+    color: #f9f9fa;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #c8935f;
+    border: 1px solid #c8935f;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 30px;
+    margin: 2em;
+    font-size: 14px;
+    line-height: 1.4em;
+    transition: all .3s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden; 
+}
+
+.footer h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.footer p {
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    display: flex;
+    width: 100%;
+    padding: 5em 10% 2em 10%;
+
+
+}
+
+.footer-logo {
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   padding: 1em;
+}
+
+.footer-logo h1,
+.footer-logo p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-copy{
+    width:70%;
+    padding: 0 1em;
+}
+
+.footer-menu {
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #F9F9FA;
+    font-weight: bold;
+}
+
+.footer-menu > div {
+    width: 50%;
+    padding-left: 2em;
+}
+
+.footer-copyright {
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-copyright p {
+    width: 100%;
+    text-align: end;
+    margin: 0;
+    padding: 0;
+}
+
+/* .footer-social-icon {
+font-family: "Jost";
+}
+
+.footer-social-icon{
+    background-image: url("../../public/images/emptycheckbox.svg");
+    background-image: url("../../public/images/emptycheckbox.svg");
+    background-image: url("../../public/images/emptycheckbox.svg");
+} */

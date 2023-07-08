@@ -1,0 +1,118 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400&display=swap');
+
+/* MENU */
+.hero-contact {
+    background-image: url("../../public/images/coffeecontact.avif");
+    background-position: 50% 80%;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.583);
+    background-blend-mode: color;
+    text-align: center;
+    padding-bottom: 120px;
+
+}
+
+.hero-contact p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.hero-contact h1 {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+/* Contact Title*/
+
+.contactForm h2 {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 60px;
+    line-height: 1.4em;
+    font-weight: 500;
+    color: #000;
+    padding-top: 60px;
+}
+
+.contactForm hr {
+    width: 70%;
+    border: none;
+    height: 3px;
+    max-width: 118px;
+    background: #c8935f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contactForm h2,
+hr {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Contact Form */
+
+.contactForm > div{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+.contactInfo {
+    border-radius: 5px;
+    background-color: #fff7ef;
+    padding-top: 40px;
+    margin: 20px;
+    max-width: 50%;
+
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    color: #f9f9fa;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #c8935f;
+    border: 1px solid #c8935f;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 30px;
+    font-size: 14px;
+    line-height: 1.4em;
+    transition: all .3s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;   
+}
+
+input[type=submit]:hover {
+    background-color: #c8935f7b;
+}
+
+.contactInfo {
+    border-radius: 5px;
+    background-color: #fff7ef;
+    padding: 20px;
+}

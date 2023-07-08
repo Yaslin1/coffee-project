@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import Menu from "./components/navbar-pages/Menu";
-import About from "./components/navbar-pages/About";
+// import About from "./components/navbar-pages/About";
 import Contact from "./components/navbar-pages/Contact";
+import Footer from "./components/navbar-pages/Footer";
 import './styles/App.css';
 
 function App() {
@@ -11,11 +12,11 @@ function App() {
       case "/menu":
         return <Menu />
       case "/about":
-        return <About />
+        return <Contact />
       case "/contact":
         return <Contact />
       default:
-        return <h1 style={{color: 'black'}}>No Home page yet doe</h1>
+        return 
     }
   }
   
@@ -23,6 +24,7 @@ function App() {
     <>
       <Navbar />
       {showPage()}
+      <Footer />
     </>
   );
 }

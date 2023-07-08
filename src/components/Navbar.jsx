@@ -5,11 +5,11 @@ export default function Navbar() {
         <nav className="nav">
             <a href="/" className="site-title">Coffee Grado</a>
             <ul className="nav-link">
-                <CustomLink href="/home">Home</CustomLink>
+                <CustomLink href="/menu">Home</CustomLink>
                 <CustomLink href="/about">About</CustomLink>
                 <CustomLink href="/contact">Contact</CustomLink>
             </ul>
-            <CustomLink href="/menu">Menu</CustomLink>
+            <CustomLink href="/menu" className="menubutton">Menu</CustomLink>
 
         </nav>
 
