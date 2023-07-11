@@ -62,6 +62,7 @@ export default function Coffees() {
             <div className="button-container" ref={elementRef}>
                 <h3>Our Coffee</h3>
                 <h2 className="menu">Menu</h2>
+                
                 <div className="coffee-select-btns">
                     <button className={`${allCoffeeChecked ? 'is-checked' : 'button-all'} w-inline-block w--current`} type="checkbox" onClick={() => getAllCoffee('all')}>All</button>
                     <hr />

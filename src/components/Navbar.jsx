@@ -1,3 +1,5 @@
+import Link from 'react-router-dom';
+
 export default function Navbar() {
 
 
@@ -6,10 +8,12 @@ export default function Navbar() {
             <a href="/" className="site-title">Coffee Grado</a>
             <ul className="nav-link">
                 <CustomLink href="/menu">Home</CustomLink>
-                <CustomLink href="/about">About</CustomLink>
+                <CustomLink href="/about">RSVP</CustomLink>
                 <CustomLink href="/contact">Contact</CustomLink>
             </ul>
-            <CustomLink href="/menu" className="menubutton">Menu</CustomLink>
+
+            
+            <button href="/menu" className="menubutton">Menu</button>
 
         </nav>
 

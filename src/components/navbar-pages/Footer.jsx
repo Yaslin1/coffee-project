@@ -16,7 +16,7 @@ export default function Footer() {
             <div className='footer-info'>
                 <div className='footer-logo'>
                     <h1>Coffee Grado</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>Get your daily jolt of joe, served with a Grado of excellence.</p>
                 </div>
                 <div className='footer-menu-copy'>
                     <div className='footer-menu'>

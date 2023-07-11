@@ -38,6 +38,7 @@ body {
   justify-content: space-between;
   align-items: stretch;
   list-style: none;
+  transform: scale(0.95);
   gap: 2rem;
   padding: 1rem;
 }
@@ -60,39 +61,37 @@ body {
 }
 
 .nav ul {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
-  gap: 1 rem;
+  justify-content: space-evenly;
+  /* gap: 1 rem; */
 }
 
 .nav a {
   color: inherit;
   text-decoration: none;
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   align-items: center;
-  padding: .25rem 15px;
+  /* padding: .25rem 15px; */
 }
 
+.nav li:hover,
 .nav li.active {
-  background-color: #5555;
+  color: #c8935f;
 }
-
-.nav li:hover {
-  background-color: #5555;
-}
-
 
 .menubutton {
+  font-size: 14px;
   color: #f9f9fa;
+  line-height: 1.4em;
   text-align: center;
   text-transform: uppercase;
-  font-size: 14px;
-  background-color: #c8935f;
-  padding: 10px 30px;
-  line-height: 1.4em;
+  padding: 10px;
+  background-color: #c8935f; 
+  border: 0; 
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -200,6 +199,11 @@ header {
   border-radius: 6px;
   align-items: center;
 }
+
+.button-container button:last-child {
+  padding-right: 0;
+}
+
 
 .button-container hr {
   width: 70%;

@@ -9,6 +9,8 @@ function App() {
 
   const showPage = () => {
     switch (window.location.pathname) {
+      case "/":
+        return <Menu />
       case "/menu":
         return <Menu />
       case "/about":
