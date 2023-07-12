@@ -13,7 +13,7 @@ export default function Navbar() {
             </ul>
 
             
-            <button href="/menu" className="menubutton">Menu</button>
+            <a href="/menu" className="menubutton">Menu</a>
 
         </nav>
 
