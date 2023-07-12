@@ -1,5 +1,3 @@
-import Link from 'react-router-dom';
-
 export default function Navbar() {
 
 
@@ -11,10 +9,7 @@ export default function Navbar() {
                 <CustomLink href="/about">RSVP</CustomLink>
                 <CustomLink href="/contact">Contact</CustomLink>
             </ul>
-
-            
             <a href="/menu" className="menubutton">Menu</a>
-
         </nav>
 
     )
@@ -22,7 +17,7 @@ export default function Navbar() {
 
 function CustomLink({ href, children, ...props }) {
     let path = window.location.pathname
-    if (path === '/') path = '/home'
+    if (path === '/') path = '/menu'
 
     return (
         <li className={path === href ? "active" : ""}>

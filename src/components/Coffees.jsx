@@ -53,6 +53,7 @@ export default function Coffees() {
             !coffeeList && getAllCoffee()
             fadeSlideAnimation(elementRef)
         },
+        // eslint-disable-next-line
         []
     )
     //^ automatically getAllCoffee generated when clicking on menu.
